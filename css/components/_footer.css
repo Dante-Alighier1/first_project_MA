@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.footer__contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.footer__list{
+    display: flex;
+    gap: 24px;
+}
+
+.footer__link {
+    font-weight: 500;
+    font-size: 21px;
+    font-family: 'DM Sans' sans-serif;
+    color: var(--black);
+}
+
+.footer__text {
+    color: #2429AF;
+    font-size: 21px;
+}

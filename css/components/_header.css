@@ -1,0 +1,23 @@
+.header{
+    margin: 50px 0 120px;
+    color: var(--black);
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__nav{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header__list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
