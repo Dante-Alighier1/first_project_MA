@@ -26,3 +26,70 @@
     color: #2429AF;
     font-size: 21px;
 }
+
+@media (max-width: 768px){
+    .footer__link{
+        font-size: 21px;
+    }
+
+    .footer__list{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__contact{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__text{
+        font-size: 21px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .footer__link{
+        font-size: 20px;
+    }
+
+    .footer__list{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__contact{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__text{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px){
+    .footer{
+        margin-top: 80px;
+    }
+
+    .footer__link{
+        font-size: 16px;
+    }
+
+    .footer__list{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__contact{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__text{
+        font-size: 17px;
+        text-align: center;
+    }
+}

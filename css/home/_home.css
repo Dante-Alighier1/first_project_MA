@@ -85,3 +85,212 @@
     margin-top: 134px;
 }
 
+@media (max-width:1200px){
+    .home__inner{
+        max-width: max-content;
+        gap: 100px;
+        margin-bottom: 100px;
+    }
+
+    .home__title{
+        font-size: 55px;
+    }
+
+    .home__text{
+        font-size: 28px;
+    }
+
+    .profile__photo{
+        object-fit: cover;
+    }
+
+    .main_skills--inner{
+        margin-bottom: 100px;
+    }
+}
+
+
+@media (max-width: 1100px){
+    .home__title{
+        font-size: 50px;
+    }
+
+    .home__text{
+        font-size: 26px;
+    }
+
+    .profile__photo{
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1000px){
+    .home__title{
+        font-size: 48px;
+    }
+
+    .home__text{
+        font-size: 24px;
+    }
+
+    .profile__photo{
+        width: 380px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 900px){
+    .home__title{
+        font-size: 46px;
+    }
+
+    .home__text{
+        font-size: 22px;
+    }
+
+    .profile__photo{
+        width: 360px;
+        height: 460px;
+    }
+}
+
+@media (max-width: 800px) {
+    .home__title{
+        font-size: 40px;
+    }
+
+    .home__text{
+        font-size: 18px;
+    }
+
+    .profile__photo{
+        width: 340px;
+        height: 460px;
+    }
+}
+
+@media (max-width: 768px){
+    .home__inner{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+        gap: 40px;
+    }
+
+    .home__content{
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+
+    .home__title{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .home__text{
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .profile__photo{
+        width: 350px;
+        height: 500px;
+    }
+
+   
+
+    .main_software-content2{
+        margin-left: 180px;
+    }
+}
+
+@media (max-width: 680px){
+    .home__inner{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+        gap: 40px;
+    }
+
+    .home__content{
+        margin: auto 20px 10px;
+    }
+
+    .home__title{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .home__text{
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .profile__photo{
+        width: 350px;
+        height: 500px;
+    }
+
+    .main_software-content2{
+        margin-left: 140px;
+    }
+}
+
+@media (max-width: 360px) {
+    .home__inner{
+        margin: auto 10px 40px;
+        gap: 24px;
+    }
+    
+    .home__title{
+        font-size: 20px;
+    }
+
+    .home__text{
+        font-size: 14px;
+    }
+
+    .profile__photo{
+        width: 200px;
+        height: 270px;
+        object-fit: cover;
+    }
+
+    
+
+    .main_software--inner{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main_skills--inner{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main_software-content2{
+        margin-left: auto;
+    }
+
+    .main_software{
+        font-size: 16px;
+    }
+
+    .main_software-content{
+        font-size: 15px;
+    }
+
+    .main_software-content2{
+        font-size: 15px;
+    }
+
+    .main_skills{
+        font-size: 16px;
+    }
+
+    .main_skills-content{
+        font-size: 15px;
+    }
+}  

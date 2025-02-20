@@ -7,7 +7,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.35;
-    font-family: sans-serif;
+    font-family: var(--DMSans), var(--Inter);
     position: relative;
     overflow-x: hidden;
 }

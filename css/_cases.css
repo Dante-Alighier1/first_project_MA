@@ -120,3 +120,146 @@
     transition: color .4s;
     background-color: .4s;
 }
+
+@media (max-width:1200px){
+    .cases__text{
+        font-size: 28px;
+    }
+
+    .cases__title{
+        font-size: 55px;
+    }
+
+    .cases__img{
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 1000px){
+    .cases__title{
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+
+    .cases__text{
+        font-size: 24px;
+    }
+
+    .cases__img{
+        margin-bottom: 85px;
+    }
+
+    .cases__img2{
+        width: 480px;
+    }
+
+    .cases__items{
+        gap: 100px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 900px){
+    .cases__title{
+        font-size: 45px;
+    }
+
+    .cases__text{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 860px) {
+    .cases__top{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        max-width: 100%;
+    }
+
+    .cases__title{
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .cases__text{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .cases__img{
+        margin: 0 auto 50px;
+        width: 28px;
+    }
+
+    .cases__items{
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+    .cases__card{
+        flex-direction: column-reverse;
+        
+    }
+
+    .cases__link{
+        margin: 0 auto;
+    }
+
+    .cases__img2{
+        width: 550px;
+    }
+
+    .cases__card{
+        gap: 80px;
+    }
+}
+
+@media (max-width: 400px){
+    .cases__inner{
+        margin-bottom: 60px;
+    }
+
+    .cases__title{
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .cases__text{
+        font-size: 20px;
+    }
+
+    .cases__img{
+        width: 22px;
+    }
+
+    .cases__card{
+        gap: 60px;
+    }
+
+    .cases__content{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .cases__items{
+        gap: 30px;
+        padding-bottom: 60px;
+    }
+
+    .cases{
+        margin-bottom: 60px;
+    }
+
+    .cases__seperator{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .cases__link2{
+        text-align: center;
+    }
+}
